@@ -5,7 +5,7 @@
     if(isset($_GET["fullName"]) && $_GET["fullName"] != ""){
         $name = $_GET["fullName"];
     } else{
-        $error = "Your must provide your name";
+        $error = "You must provide your name";
     }
 ?>
 <!DOCTYPE html>
